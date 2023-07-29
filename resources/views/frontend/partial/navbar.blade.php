@@ -9,12 +9,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link">Beranda</a>
+            <a href="#" class="nav-item nav-link">Beranda</a>
             <a href="{{ route('page-profil') }}" class="nav-item nav-link">Profil</a>
             <a href="{{ route('page-sejarah') }}" class="nav-item nav-link">Sejarah</a>
-            <a href="project.html" class="nav-item nav-link">Visi & Misi</a>
-            <a href="project.html" class="nav-item nav-link">Struktur Organisasi</a>
-            <a href="contact.html" class="nav-item nav-link">Kotak saran</a>
+            <a href="#" class="nav-item nav-link">Visi & Misi</a>
+            <a href="#" class="nav-item nav-link">Struktur Organisasi</a>
+            <a href="#" class="nav-item nav-link">Kotak saran</a>
         </div>
         <button type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
         <a href="#" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Login</a>
