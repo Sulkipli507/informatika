@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.about');
+    return view('welcome');
 });
+
+Route::get('/page/profil', [PageController::class, 'showProfil'])->name('page-profil');
+Route::get('/page/sejarah', [PageController::class, 'showSejarah'])->name('page-sejarah');
