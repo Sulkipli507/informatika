@@ -12,4 +12,8 @@ class PageController extends Controller
     public function showSejarah(){
         return view('page.sejarah');
     }
+
+    public function showOrganisasi(){
+        return view('page.organisasi');
+    }
 }

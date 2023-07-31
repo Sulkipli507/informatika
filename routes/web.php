@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/page/profil', [PageController::class, 'showProfil'])->name('page-profil');
 Route::get('/page/sejarah', [PageController::class, 'showSejarah'])->name('page-sejarah');
+Route::get('/page/strukturOrganisasi', [PageController::class, 'showOrganisasi'])->name('page-organisasi');
