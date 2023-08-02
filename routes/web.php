@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/page/profil', [PageController::class, 'showProfil'])->name('page-profil');
 Route::get('/page/sejarah', [PageController::class, 'showSejarah'])->name('page-sejarah');
 Route::get('/page/strukturOrganisasi', [PageController::class, 'showOrganisasi'])->name('page-organisasi');
+Route::get('/page/kotakSaran', [PageController::class, 'showSaran'])->name('page-saran');
+Route::get('/page/galery', [PageController::class, 'showGalery'])->name('page-galery');
